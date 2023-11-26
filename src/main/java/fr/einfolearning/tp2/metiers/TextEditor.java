@@ -98,8 +98,6 @@ public class TextEditor {
         }
     }
 
-
-
     /**
      * Coupe et sauve une section de l'éditeur de texte marquée à l'aide du curseur
      * et de de la marque de fin de zone

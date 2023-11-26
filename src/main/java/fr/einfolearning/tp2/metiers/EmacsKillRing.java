@@ -17,6 +17,7 @@ public class EmacsKillRing {
     private LinkedList<String> block;
     private int entry;
 
+
     // MAX SIZE of the emacs kill ring that were previously killed
     public static final int MAX = 20;
 
@@ -52,7 +53,6 @@ public class EmacsKillRing {
 
     public String toString() {
         return (block.toString());
-
     }
 
 }
