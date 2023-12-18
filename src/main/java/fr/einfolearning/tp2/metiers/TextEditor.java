@@ -45,6 +45,7 @@ public class TextEditor {
      */
     public void yank() throws IllegalAccessException {
         String s;
+        System.out.println(emacsKillring.isEmpty());
         if (emacsKillring.isEmpty())
             throw (new IllegalAccessException(
                     "Cannot yank an empty kill ring"));
@@ -82,6 +83,7 @@ public class TextEditor {
         buffer.del(yankLeft, yankRight);
         buffer.ins(s, yankLeft);
     }
+
 
 
     /**
